@@ -1,0 +1,66 @@
+@media (min-width: 0) and (max-width: 750px){
+    .post-side{
+        height: auto;
+        max-height: 250vh;
+        margin: 30px 0;
+
+    }
+    .post-side .popular-post h2{
+        margin-top: 2rem;
+        font-family: Lexend;
+    }
+    .post-side .category .category-list .class-items{
+        width: 90%;
+        margin: 0.8rem 1rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .post-side .popular-post .popular{
+        transition: all 2s step-start;
+    }
+    .post-side .popular-post #one, #two, #three, #four, #five{
+        border-radius: 8px;
+        margin:10px 20px 30px 20px;
+        width: 100%;
+        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+    }
+    .post-side .popular-post .popular-content .post-title{
+        font-size: 16px;
+        font-family: Livvic;
+        color: black;
+        padding: 10px  0 10px 2%;
+    }
+    .post-side .popular-post .popular-content .post-title a:hover{
+        text-decoration: underline;
+    }
+    .post-side .popular-post .popular-content .post-image img {
+        margin: 10px;
+        width: 70%;
+        height: 200px;
+        transition: all 5s step-start;
+    }
+    .post-side .popular-post .popular-content .post-image img:hover{
+        transform: scale(1.1);
+    }
+    .post-side .newsletter {
+        padding-top: 3rem;
+    }
+
+    .post-side .newsletter .form-element {
+        padding: 0.5rem 0.75rem;
+        margin: 0.75em 0;
+    }
+
+    .post-side .newsletter .form-element .input {
+        width: 80%;
+        height: 1.9rem;
+        padding: 0.3rem 0.5rem;
+        font-size: 1.35rem;
+    }
+
+    .post-side .newsletter .form-element button {
+        padding: 0.8rem 32%;
+        margin: 1rem 0;
+        width: 80%;
+    }
+}

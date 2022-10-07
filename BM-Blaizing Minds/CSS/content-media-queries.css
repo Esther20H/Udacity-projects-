@@ -1,0 +1,64 @@
+@media (min-width: 0) and (max-width: 952px){
+    .side{
+        height: auto;
+        margin-bottom: -33em;
+    }
+    .side .popular-post h2{
+        margin-top: 2rem;
+        font-family: sans-serif;
+    }
+    .side .category .category-list .class-items{
+        width: 90%;
+        margin: 0.8rem 1rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    .side .popular-post .popular{
+        transition: all 2s step-start;
+    }
+    .side .popular-post #one, #two, #three, #four, #five{
+        border-radius: 8px;
+        margin:10px 20px 30px 20px;
+        width: 100%;
+        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+    }
+    .side .popular-post .popular-content .post-title{
+        font-size: 16px;
+        font-family: Livvic;
+        color: black;
+        padding: 10px  0 10px 2%;
+    }
+    .side .popular-post .popular-content .post-title a:hover{
+        text-decoration: underline;
+    }
+    .side .popular-post .popular-content .post-image img {
+        margin: 10px;
+        width: 70%;
+        height: 200px;
+        transition: all 5s step-start;
+    }
+    .side .popular-post .popular-content .post-image img:hover{
+        transform: scale(1.1);
+    }
+    .side .newsletter {
+        padding-top: 3rem;
+    }
+
+    .side .newsletter .form-element {
+        padding: 0.5rem 0.75rem;
+        margin: 0.75em 0 -98%;
+    }
+
+    .side .newsletter .form-element .input {
+        width: 80%;
+        height: 1.9rem;
+        padding: 0.3rem 0.5rem;
+        font-size: 1.35rem;
+    }
+
+    .side .newsletter .form-element button {
+        padding: 0.8rem 32%;
+        margin: 1rem 0;
+        width: 80%;
+    }
+}

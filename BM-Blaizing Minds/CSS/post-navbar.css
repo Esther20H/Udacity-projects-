@@ -1,0 +1,168 @@
+@import "all.css";
+@import url('fonts.css');
+@import url('post-content.css');
+@import url('post-story-content.css');
+@import "post-main-section-media-query.css";
+@import url('post-sidebar.css');
+@import "post-sidebar2.css";
+@import "post-footer.css";
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+h1{
+    font-family: Laila;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    margin: auto;
+}
+h2{
+    font-weight: lighter;
+    font-family: Lexend;
+}
+h3{
+    font: bold 16px Abel;
+}
+p{
+    font: lighter 16px Livvic;
+    padding: 10px 5%;
+    line-height: 2.2;
+    text-align: justify;
+}
+em{
+    text-decoration: black underline;
+}
+blockquote{
+    text-decoration: none;
+    font: 16px lighter Abel;
+    display: block;
+    padding-left: 2em;
+}
+span{
+    font: lighter 17px Abel;
+    color: #3d3d3c;
+}
+a{
+    color: black;
+    font-family: Livvic;
+    cursor: pointer;
+}
+a:hover{
+    text-decoration: black underline;
+}
+a:visited{
+    color: #8f82b4;
+}
+.menu{
+    background-image: linear-gradient(120deg, rgb(13 71 161) 0%, rgb(255 255 255) 100%);
+    height: 100px;
+    width: 100%;
+    position: fixed;
+}
+.title,.checkbtn > .fa-bars, ul{
+    display: inline-flex;
+    padding: 30px 10px;
+}
+.menu .title .logo{
+    padding: 7px 0 10px 15px;
+    text-decoration: none;
+    color: rgb(159 168 218);
+    text-align: left;
+    font-family: "Bell MT";
+    font-weight: bold;
+    font-size: 25px;
+}
+.menu .title h1{
+    padding: 0 10px;
+}
+.menu ul{
+    position: fixed;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.menu ul li{
+    display: inline-flex;
+    margin: 0 5px;
+}
+a.active{
+    text-decoration: underline;
+}
+.checkbtn{
+    font-size: 24px;
+    padding-top: 10px;
+    color: black;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media (max-width: 750px) {
+    .logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    .menu ul li a{
+        font-size: 20px;
+    }
+    .title h1{
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+        justify-content: center;
+    }
+}
+@media (max-width: 750px){
+    .checkbtn{
+        display: block;
+    }
+    .menu{
+        background-image: linear-gradient(120deg, rgb(13 71 161) 0%, rgb(255 255 255) 100%);
+        height: 100px;
+        width: 100%;
+        position: fixed;
+    }
+    .menu ul{
+        display: block;
+        margin-right: 0;
+        margin-top: -2px;
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        background-color: rgb(159 168 218);
+        top: 100px;
+        right: -50%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+    .menu ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    .menu ul li a {
+        font-size: 20px;
+    }
+    #check:checked~ul{
+        right: 0;
+    }
+}
+@media(min-width: 751px){
+    .menu ul{
+        float: right;
+    }
+    .menu ul .active{
+        color: black;
+        text-decoration: underline;
+    }
+    .menu .title h1{
+        padding: 0 200px;
+    }
+}

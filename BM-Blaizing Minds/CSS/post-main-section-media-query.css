@@ -1,0 +1,22 @@
+.post-main-content{
+    padding-top: 7.5rem;
+}
+@media (min-width: 751px){
+    .post-main-content{
+        display: grid;
+        grid-template-columns: 70% 30%;
+        grid-gap: 15px;
+    }
+}
+@media (max-width: 750px){
+    .post-main-content{
+        display: grid;
+        height: fit-content;
+        grid-template-rows: 1fr auto;
+        grid-gap: 15px;
+    }
+    .post-main-content .main-story{
+        margin-bottom: 0;
+    }
+
+}

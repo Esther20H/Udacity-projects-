@@ -1,0 +1,110 @@
+@import 'content-media-queries.css';
+.side .category .category-list{
+    font-family: Abel;
+    display: contents;
+}
+.side .category .category-list .class-items{
+    background: linear-gradient(65deg, #303F9F, #edeff1);
+    padding: 0.4rem 1rem;
+    margin: 0.8rem 0;
+    border-radius: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.side .popular-post .popular-content{
+    border-radius: 8px;
+    margin:10px 20px 30px 0;
+    padding: 0;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+
+}
+.side .newsletter {
+    padding-top: 3rem;
+}
+
+.side .newsletter .form-element {
+    padding: 0.5rem 0.75rem;
+}
+
+.side .newsletter .form-element .input {
+    width: 80%;
+    height: 1.9rem;
+    padding: 0.3rem 0.5rem;
+    font-family: Abel;
+    font-size: 1rem;
+}
+
+.side .newsletter .form-element button {
+    border-radius: 0;
+    padding: 0.8rem 32%;
+    margin: 1rem 0;
+    width: 80%;
+    background: linear-gradient(65deg, #303F9F, #edeff1);
+    border: none;
+    font: bold 18px Abel;
+    cursor: pointer;
+}
+@media (min-width: 953px) {
+    .side .category h2{
+    }
+    .side .popular-post > h2 {
+        margin-top: 1em;
+        padding: 10px 0 5px 0;
+        font-family: Lexend
+    }
+
+    .side .category .category-list .class-items {
+        background: linear-gradient(65deg, #303F9F, #edeff1);
+        padding: 0.4rem 1rem;
+        margin: 0.8rem 0;
+        border-radius: 3rem;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .side .popular-post .popular-content .post-image img {
+        margin: 10px 5px;
+        width: 95%;
+        height: 200px;
+        transition: all 1s ease;
+    }
+
+    .side .popular-post .popular-content .post-image img:hover {
+        transform: scale(1.1);
+    }
+
+    .side .popular-post .popular-content .post-title {
+        padding: 5px 10px;
+        font-family: Livvic;
+        font-size: 18px;
+    }
+
+    .side .newsletter {
+        padding-top: 3rem;
+    }
+
+    .side .newsletter .form-element {
+        padding: 0.5rem 0.75rem;
+    }
+
+    .side .newsletter .form-element .input {
+        width: 80%;
+        height: 1.9rem;
+        padding: 0.3rem 0.5rem;
+        font-family: Abel;
+        font-size: 1rem;
+    }
+
+    .side .newsletter .form-element button {
+        border-radius: 0;
+        padding: 0.8rem 32%;
+        margin: 1rem 0;
+        width: 80%;
+        background: linear-gradient(65deg, #303F9F, #edeff1);
+        border: none;
+        font: bold 18px Abel;
+        cursor: pointer;
+    }
+}

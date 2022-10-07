@@ -1,0 +1,186 @@
+@import "post-sidebar2.css";
+.post-side .avatar-profile .avatar{
+    vertical-align: middle;
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow:0 2px 0 2px rgba(0, 0, 0, 0.5);
+    margin: 20px 10% 10px;
+}
+.post-side .avatar-profile h3{
+    font: bold 24px abel;
+    text-align: center;
+}
+.post-side .avatar-profile p{
+    font: lighter 14px Livvic;
+    color: #4d4c4c;
+    padding: 10px 9%;
+    margin-left: 20px;
+    line-height: 1.5;
+    width: 80%;
+    text-align: justify;
+}
+.post-side .avatar-profile span{
+    font: lighter 18px Abel;
+    color: black;
+    margin: 2px 0 3px 30px;
+}
+.post-side .avatar-profile span .avatar-social{
+    font: bold 16px abel;
+    margin: 2px 3px 3px 3em;
+}
+.post-side .avatar-profile span .avatar-social .fab{
+    padding-right: 5px;
+}
+.post-side .avatar-profile span .avatar-social .fa-facebook-f{
+    color: #3b5998;
+}
+.post-side .avatar-profile span .avatar-social .fa-twitter{
+    color: skyblue;
+}
+.post-side .avatar-profile span .avatar-social .fa-instagram{
+    color: rgb(78, 49, 87);
+}
+.post-side .avatar-profile span .avatar-social .fa-youtube{
+    color: #ff0000;
+}
+.post-side .avatar-profile span .avatar-social .fa-linkedin{
+    color: #339de8;
+}
+@media (max-width: 750px){
+    .post-side .avatar-profile .avatar{
+        vertical-align: middle;
+        width: 200px;
+        height: 250px;
+        border-radius: 50%;
+        box-shadow:0 2px 0 2px rgba(0, 0, 0, 0.5);
+        margin: 20px 25% 10px 25%;
+    }
+    .post-side .avatar-profile h3{
+        font: bold 24px abel;
+        text-align: center;
+        padding: 5px 5%;
+        margin: 0 10%;
+        width: 70%;
+    }
+    .post-side .avatar-profile p{
+        font: lighter 14px Livvic;
+        color: #4d4c4c;
+        padding: 10px 2%;
+        margin: 0 2em;
+        line-height: 1.5;
+        width: 94%;
+        text-align: justify;
+    }
+}
+.post-side .category .category-list{
+    font-family: Abel;
+    display: contents;
+}
+.post-side .category .category-list .class-items{
+    background: linear-gradient(65deg, #303F9F, #edeff1);
+    padding: 0.4rem 1rem;
+    margin: 0.8rem 0;
+    border-radius: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.post-side .popular-post .popular-content{
+    border-radius: 8px;
+    margin:10px 20px 30px 0;
+    padding: 0;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+
+}
+.post-side .newsletter {
+    padding-top: 3rem;
+}
+
+.post-side .newsletter .form-element {
+    padding: 0.5rem 0.75rem;
+}
+
+.post-side .newsletter .form-element .input {
+    width: 80%;
+    height: 1.9rem;
+    padding: 0.3rem 0.5rem;
+    font-family: Abel;
+    font-size: 1rem;
+    border-radius: 2em;
+}
+
+.post-side .newsletter .form-element button {
+    padding: 0.8rem 32%;
+    margin: 1rem 0;
+    width: 80%;
+    background: linear-gradient(65deg, #303F9F, #edeff1);
+    border: none;
+    font: bold 18px Abel;
+    cursor: pointer;
+    border-radius: 2em;
+}
+@media (min-width: 751px) {
+    .post-side .category h2{
+    }
+    .post-side .popular-post > h2 {
+        margin-top: 1em;
+        padding: 10px 0 5px 0;
+        font-family: Lexend
+    }
+
+    .post-side .category .category-list .class-items {
+        background: linear-gradient(65deg, #303F9F, #edeff1);
+        padding: 0.4rem 1rem;
+        margin: 0.8rem 0;
+        border-radius: 3rem;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .post-side .popular-post .popular-content .post-image img {
+        margin: 10px 5px;
+        width: 95%;
+        height: 200px;
+        transition: all 1s ease;
+    }
+
+    .post-side .popular-post .popular-content .post-image img:hover {
+        transform: scale(1.1);
+    }
+
+    .post-side .popular-post .popular-content .post-title {
+        padding: 5px 10px;
+        font-family: Livvic;
+        font-size: 18px;
+    }
+
+    .post-side .newsletter {
+        padding-top: 3rem;
+    }
+
+    .post-side .newsletter .form-element {
+        padding: 0.5rem 0.75rem;
+    }
+
+    .post-side .newsletter .form-element .input {
+        width: 80%;
+        height: 1.9rem;
+        padding: 0.3rem 0.5rem;
+        font-family: Abel;
+        font-size: 1rem;
+        border-radius: 2em;
+    }
+
+    .post-side .newsletter .form-element button {
+        padding: 0.8rem 32%;
+        margin: 1rem 0;
+        width: 80%;
+        background: linear-gradient(65deg, #303F9F, #edeff1);
+        border: none;
+        font: bold 18px Abel;
+        cursor: pointer;
+        border-radius: 2em;
+    }
+}

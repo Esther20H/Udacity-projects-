@@ -1,0 +1,266 @@
+body{
+    /*background: #fffff8;
+    background-image: none;*/
+    /*text-align: center;*/
+    background-image: url("cloud3.jpg");
+    /*    background: #f23557;*/
+    background-size: cover;
+    height: auto;
+    background-repeat: no-repeat;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#app{
+    display: grid;
+    grid-auto-rows: minmax(250px, auto);
+    /* grid-template-columns:  */
+    height:100vh;
+   /* background-image: url("/website/cloud-img.jpg");
+/*    background: #f23557;
+    background-size: 100%;
+    background-repeat: no-repeat;*/
+    color: #f0d43a;
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.holder{
+    font-size: 13px;
+}
+
+.entry{
+    background: rgba(59, 74, 107, .4);
+    height: auto;
+    border-radius: 10px;
+}
+
+#entryHolder{
+    /*background-color: #3b4a6b;*/
+    display: block;
+    color: #eee;
+    height: max-content;
+    font-size: 1.3em;
+    padding-left: 1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.location{
+    display: inline-flex;
+    font-weight: bold;
+    font-size: 1.6em;
+    padding-top: 0.7em;
+    padding-bottom: 0.3em;
+}
+.location .fa-map-marker-alt{
+    color: rgba(255, 0, 0, 0.8);
+    padding-right: 0.3em;
+    visibility: hidden;
+}
+.location .city{
+    padding-right: 0.3em;
+}
+#currentDate{
+    font-size: 1em;
+    font-weight: lighter;
+    padding-left: 0.2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.weather{
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+    width: 100px;
+    /*background: rgba(250, 235, 215, 0.48);*/
+    height: 100px;
+}
+#temp{
+    font-size: 2em;
+}
+.weather #temp .fa-thermometer-three-quarters{
+    font-size: 1.5em;
+    color: rgb(13 33 141);
+    padding: 1em 3px 0 0;
+    visibility: hidden;
+}
+.weather .temp #deg{
+    margin: 10px 5px 0 4px;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+#description{
+    font-size: 1em;
+    font-weight: lighter;
+    padding-left: 1em;
+}
+.feelings{
+    text-align: center;
+    font-size: 1em;
+    font-weight: lighter;
+}
+.zip{
+    /*background: rgb(59 74 107 / 40%);*/
+    border-radius: 8px;
+    padding-left: 1.5em;
+    padding-top: -1.5em;
+}
+.feel{
+    margin-top: -8em;
+    padding: 4em 1em;
+}
+
+.headline {
+    text-align: center;
+    margin: 1em 0 0 0;
+}
+#error{
+    height: 60px;
+    padding-top: 1.5em;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    visibility: hidden;
+    width: 80%;
+    margin: 0 3.5em;
+    background: rgba(255, 0, 0, 0.65);
+}
+.title{
+ text-align: center;
+    font-size: 1.8em;
+    padding-top: 1em;
+    color: white;
+}
+#generate{
+    margin-left: 18em;
+    top: 23px;
+    margin-top: 0.8em;
+    justify-self: center;
+    cursor: pointer;
+}
+#generate:hover{
+    opacity: 80%;
+}
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    color: black;
+    display:block;
+    font-size: 20px;
+}
+
+input{
+    display:block;
+    height: 60px;
+    width: 300px;
+    margin-top: -2em;
+    margin-left: 10em;
+    background: rgb(59 74 107 / 40%);
+    border: 1px rgba(192, 192, 201, 0.5) solid;
+    color: white;
+    font-size: 18px;
+    padding-left: 8px;
+    font-family: 'Oswald', sans-serif;
+    border-radius: 10px;
+}
+
+button{
+    width: 200px;
+    height: 80px;
+    margin: -2em 12em 0;
+
+    background: linear-gradient(45deg, rgb(3, 25, 133), rgba(253, 253, 253, 0.95));
+    border-radius: 2em;
+    color: #070707;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+}
+h1{
+    font-size: 36px;
+    padding-top: 1em;
+    color: #e6ecec;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    justify-content: center;
+}
+
+textarea{
+    margin-top: -2.5em;
+    margin-left: 14em;
+    height: 50px;
+    width: 300px;
+    background: rgb(59 74 107 / 40%);
+    border: 1px rgba(192, 192, 201, 0.5) solid;
+    color: white;
+    font-size: 18px;
+    padding-top: 20px;
+    padding-left: 15px;
+    border-radius: 8px;
+    font-family: 'Oswald', sans-serif;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */
+    text-align: center;
+    color: #f0d43a;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #f0d43a;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #f0d43a;
+    font-family: 'Oswald', sans-serif;
+
+}
+/* ----Media Queries ----*/
+/*@media (max-width: 35em){
+    #app {
+        display: grid;
+        grid-auto-rows: minmax(80px, auto);
+        height: 100vh;
+        color: rgb(240 212 58);
+        justify-content: center;
+        grid-gap: 1em;
+        font-size: 20px;
+        font-family: 'Oswald', sans-serif;
+    }
+    button {
+        width: 350px;
+        height: 100px;
+        margin: 6em 12em;
+        border: none;
+        box-shadow: 2px 4px 5px #444;
+    }
+    label{
+        color: black;
+        display:block;
+        font-size: 30px;
+    }
+    .zip{
+        /*background: rgb(59 74 107 / 40%);*/
+  /*      border-radius: 8px;
+        padding-left: 2em;
+        padding-top: 6em;
+        padding-bottom: 2em;
+        height: 80px;
+    }
+}

@@ -1,0 +1,50 @@
+.main-section .main{
+    margin: 10px 20px 0;
+}
+hr{
+    display: none;
+}
+.main-section .main .latest{
+    display: grid;
+    grid-auto-rows: minmax(150px, auto);
+    grid-gap: 15px;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 30px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.35);
+}
+.main-section .main .latest figure a img{
+    width: 100%;
+    height: auto;
+    max-height: 100vh;
+}
+.main-section .main .latest figure a figcaption{
+    font-size: 20px;
+    padding: 30px 0 20px 10px;
+    font-family: Livvic;
+    font-weight: bold;
+}
+.main-section .main .latest figure a img:hover{
+    transition: 1s step-start;
+}
+.main-section .main .latest figure a figcaption:hover{
+    text-decoration: black underline;
+}
+@media (max-width: 952px) {
+    .main-section .main .latest figure a img{
+        width: 100%;
+        height: auto;
+        max-height: 80vh;
+    }
+    .main-section .main #red figure a img{
+        height: 500px;
+    }
+    .main-section .main .latest{
+        display: grid;
+        grid-auto-rows: minmax(150px, auto);
+        grid-gap: 10px;
+        border-radius: 8px;
+        margin:10px 20px 30px 0;
+        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+    }
+}

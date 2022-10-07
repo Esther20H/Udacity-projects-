@@ -1,0 +1,31 @@
+.background{
+    background-image: url('../image/bg1 (9).jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.background .bg-title{
+    padding-top: 8rem;
+    text-align: center;
+    color: floralwhite;
+}
+.background h1, h3{
+    margin: 0.3rem;
+}
+.background .btn{
+    margin: 1.8rem;
+    background: linear-gradient(65deg, #303F9F, #edeff1);
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.background .btn:hover{
+background: transparent;
+border: 1px solid white;
+color: white;
+}

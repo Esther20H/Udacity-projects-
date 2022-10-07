@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BM - Blaizing Minds</title>
+    <link href="./CSS/home-page.css" rel="stylesheet">
+    <script>
+        document.addEventListener('DOMContentLoaded', function (){
+            console.log(performance.now);
+        })
+    </script>
+</head>
+<body>
+    <nav class="menu">
+    <div class="title">
+        <span class="logo">BM</span>
+        <h1>Blaizing Minds</h1>
+    </div>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+    </label>
+    <ul>
+        <li><a href="home-page.html" class="active">Home</a></li>
+        <li><a href="#">Archive</a></li>
+        <li><a href="#">Category</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+    <div class="background">
+    <div class="bg-title">
+        <h3>Amazing stories</h3>
+        <h1>Tales of White Fang</h1>
+        <button class="btn">Explore more</button>
+    </div>
+</div>
+    <main class="main-section">
+        <article class="main">
+            <h2>Recent Posts</h2>
+            <section class="latest" id="red">
+                <figure>
+                    <a href="./HTML/blood-flow.html">
+                        <img src="./image/blood_flow.jpeg" alt="blood flow">
+                        <figcaption>Blood flow</figcaption></a>
+                </figure>
+            </section>
+            <hr><br>
+            <section class="latest">
+                <figure>
+                    <a href="./HTML/sour-heart.html">
+                        <img src="image/sour-heart.jpeg" alt="sour heart">
+                        <figcaption>Sour heart</figcaption></a>
+                </figure>
+            </section>
+            <hr><br>
+            <section class="latest">
+                <figure>
+                    <a href="./HTML/royal-war.html">
+                        <img src="./image/royal_war.jpeg" alt="royal war">
+                        <figcaption>Royal war</figcaption></a>
+                </figure>
+            </section>
+            <hr><br>
+            <section class="latest">
+                <figure>
+                    <a href="./HTML/blue-ribbons.html">
+                        <img src="./image/blue_ribbons.jpg" alt="blue ribbons">
+                        <figcaption>Blue Ribbons</figcaption></a>
+                </figure>
+            </section>
+        </article>
+        <aside class="side">
+             <div class="category">
+                <h2>Category</h2>
+                <ul class="category-list">
+                    <li class="class-items">
+                        <a href="#">Horror</a>
+                        <span>(3)</span>
+                    </li>
+                    <li class="class-items">
+                        <a href="#">Love</a>
+                        <span>(8)</span>
+                    </li>
+                    <li class="class-items">
+                        <a href="#">Family</a>
+                        <span>(1)</span>
+                    </li>
+                    <li class="class-items">
+                        <a href="#">Fantasy</a>
+                        <span>(4)</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="popular-post">
+                <h2>Popular Posts</h2>
+                <div class="popular-content">
+                    <div class="post-image">
+                        <img src="./image/bg1 (11).jpg" alt="popular post one">
+                    </div>
+                    <div class="post-title">
+                        <a href="#">
+                            Beyond the horizon
+                        </a>
+                    </div>
+                </div>
+                <div class="popular-content">
+                    <div class="post-image">
+                        <img src="./image/bg1 (8).jpg" alt="popular post one">
+                    </div>
+                    <div class="post-title">
+                        <a href="#">
+                            Sapphires in the sky
+                        </a>
+                    </div>
+                </div>
+                <div class="popular-content">
+                    <div class="post-image">
+                        <img src="./image/bg1 (15).jpg" alt="popular post one">
+                    </div>
+                    <div class="post-title">
+                        <a href="#">
+                            Enteral Love
+                        </a>
+                    </div>
+                </div>
+                <div class="popular-content">
+                    <div class="post-image">
+                        <img src="./image/bg1 (19).jpg" alt="popular post one">
+                    </div>
+                    <div class="post-title">
+                        <a href="#">
+                            Forest of no return
+                        </a>
+                    </div>
+                </div>
+                <div class="popular-content">
+                    <div class="post-image">
+                        <img src="./image/bg1 (21).jpg" alt="popular post one">
+                    </div>
+                    <div class="post-title">
+                        <a href="#">
+                            Just a drop
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="newsletter">
+                <h2>Newsletter</h2>
+                <div class="form-element">
+                    <input type="text" class="input" placeholder="Email">
+                    <button class="btn form-btn">Subscribe</button>
+                </div>
+            </div>
+        </aside>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="about">
+                <h3>About Us</h3>
+                <p>Blazing Minds is a story blog, which contains frictional tales about romance,
+                    family relationship, war, hatred unity and discord e.t.c
+                </p>
+            </div>
+            <div class="newsletter">
+                <h3>Newsletter</h3>
+                <p>Stay updated with our latest stories</p>
+                <div class="form-element">
+                    <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+            <div class="twitter">
+                <h3>Twitter</h3>
+                <div class="flex-row">
+                    <img src="./image/tw (1).jpg" alt="twitter1">
+                    <img src="./image/tw (2).jpg" alt="twitter2">
+                    <img src="./image/tw (3).jpg" alt="twitter3">
+                </div>
+                <div class="flex-row">
+                    <img src="./image/tw (4).jpg" alt="twitter4">
+                    <img src="./image/tw (5).jpg" alt="twitter5">
+                    <img src="./image/tw (6).jpg" alt="witter6">
+                </div>
+            </div>
+            <div class="follow">
+                <h3>Follow us</h3>
+                <p>Let's be social</p>
+                <div class="social">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>
+                © Copyright Blaizing Minds 2022. All Rights reserved
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

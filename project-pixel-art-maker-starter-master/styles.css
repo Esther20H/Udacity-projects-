@@ -1,0 +1,67 @@
+@import "fonts.css";
+body {
+    text-align: center;
+    background-color: #effcee;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    font: 1.5em bolder Lexend;
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+#sizePicker{
+    font: 16px lighter Livvic;
+}
+span{
+    font: 16px lighter Abel;
+}
+input{
+    font: 16px lighter Abel;
+    color: black;
+}
+input[type= "submit"]{
+    padding: 0.5em 1em;
+    background: #17ea11;
+    height: 2em;
+    border: 1px #17EA11FF;
+    margin-right: 0.5em;
+    border-radius: 12px;
+    box-shadow: 0 1px 0 1px #b2d2ab;
+    color: #fcfafa;
+}
+input[type= "submit"]:hover{
+    opacity: 100;
+    cursor: pointer;
+}
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+    margin-right: 1em;
+}

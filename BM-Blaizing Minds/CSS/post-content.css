@@ -1,0 +1,18 @@
+.post-main-content .main-story .post-content-heading h1{
+    padding: 0 0 0.2em 0.3em;
+    text-align: left;
+    font: 400 34px Lexend;
+}
+.post-main-content .main-story .post-content-heading .date{
+    padding: 0 0.5em 0.2em 1.5em;
+    text-align: left;
+}
+.post-main-content .main-story .post-content-heading .name{
+    padding: 0 0.5em 0.2em 0.35em;
+    text-align: left;
+}
+.post-main-content .main-story .hero-image img{
+    width: 100%;
+    height: 50vh;
+    padding: 10px 8%;
+}
